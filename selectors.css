@@ -1,0 +1,51 @@
+
+body {
+	font-family: monospace;
+	background-color: #c8c8c8;
+	font-size: 20px;
+}
+
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+
+li a {
+	color: #1d629e;
+}
+
+/*Adjacent Selector*/
+
+h4 + ul {
+	border: 2px solid #b59753;
+}
+
+
+/*Attribute Selector*/
+
+a[href="http://www.google.com"] {
+	background: #ff0000;
+	color: white;
+}
+
+/*nth of type*/
+
+li:nth-of-type(odd){
+	background: #89cc9d;
+}
